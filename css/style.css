@@ -1,0 +1,261 @@
+@import url(fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Rubik-Regular';
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background: #E5E5E5;
+
+}
+
+.header {
+    padding: 30px 0;
+
+}
+
+.header__content {
+    background: url(../fon.png) rgba(255, 255, 255) no-repeat center/cover;
+
+}
+
+.header__content-desc {
+    width: 332px;
+    padding: 111px 0;
+    margin-left: 62px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.header__content-title {
+    color: #464748;
+    font-family: 'Rubik-Bold';
+    font-size: 50px;
+    line-height: 59px;
+    position: relative;
+    z-index: 1;
+}
+
+.heder__content-text {
+    text-align: justify;
+
+}
+
+.link {
+    background: #3FA5D5;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 7px 62px;
+    text-align: center;
+    color: white;
+    margin-bottom: 19px;
+    min-width: max-content;
+}
+
+.header__content-title::before {
+    content: '';
+    width: 100px;
+    height: 50px;
+    background:
+        #3FA5D5;
+    z-index: -1;
+    position: absolute;
+    top: 35px;
+}
+
+.heder__content-text {
+    font-family: 'Rubik-Light';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+}
+
+/* main start */
+.card {
+    width: 255px;
+    background-color: white;
+    min-height: 338px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.card__title {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 32px;
+    color: #2A86B1;
+    font-family: 'Rubik-Bold';
+}
+
+/* info start */
+
+.info__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0 44px;
+
+}
+
+.info__box-left {
+    max-width: 825px;
+    width: 100%;
+}
+
+.info__box-title {
+    font-size: 20px;
+    font-family: 'Rubik-Bold';
+    line-height: 23px;
+    margin-left: 18px;
+    padding-bottom: 22px;
+    color: #686868;
+}
+
+.info__box-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #545454;
+    font-family: 'Rubik-Regular';
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.mix {
+    width: 255px;
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.mix__mini {
+    margin-left: 15px;
+}
+
+.mix__image {
+    object-fit: contain;
+}
+
+.mix__mini-title {
+    font-size: 17px;
+    line-height: 94.5%;
+    color: #323232;
+    padding-bottom: 5px;
+    font-family: 'Rubik-Regular';
+}
+
+.mix__mini-subtitle {
+    font-size: 14px;
+    font-family: 'Rubik-Light';
+    line-height: 94.5%;
+    color: #000000;
+}
+
+/* info end */
+
+/* main end */
+
+/* footer start */
+
+.footer {
+    background: #3FA5D5;
+    padding: 40px 0;
+    color: white;
+
+}
+
+h5 {
+    font-size: 50px;
+    font-family: 'Rubik-Bold';
+
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__mini-title {
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-family: 'Rubik-Bold';
+    text-align: end;
+}
+
+/* footer end */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 100%;
+    width: 120px;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s;
+    overflow: hidden;
+
+}
+
+.nav:hover {
+    width: 235px;
+}
+
+.nav__logo {
+    padding-left: 20px;
+}
+
+.nav__list {
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+    width: max-content;
+}
+
+.nav__link {
+    font-size: 18px;
+    color: #939393;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+}
+.nav__ava{
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+    
+}
+.nav__link:hover{
+    color: #2A86B1;
+}
